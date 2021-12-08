@@ -1,0 +1,26 @@
+{
+  "name": "projeto1",
+  "version": "1.0.0",
+  "description": "Primeiro projeto em conjunto - grupo de estudos",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicaschnei/Projeto_One.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "Mônica de Souza Schneider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicaschnei/Projeto1/issues"
+  },
+  "homepage": "https://github.com/monicaschnei/Projeto1#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

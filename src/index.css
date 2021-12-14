@@ -6,6 +6,7 @@
     --dark-blue: #162535;
     --light-gray: #dfdede;
     --red:#c75252;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -495,7 +496,6 @@
 
 .container5__conteudo3__mapa h2{
     font-size: 1.5625rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-bottom: 2.5rem;
     width: 50%;
@@ -508,36 +508,80 @@
     margin-bottom: 4.43rem;
 }
 
-.container5__conteudo3__mapa p{
-    font-size: 1.5625rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    margin-bottom: 2.5rem;
-    width: 15%;
-    text-align: center;
-
 /*Container 6*/
 
-.conte{}
-.container6__conteudo{
+.container6{
+    background-color: var(--dark-blue);
+}
+
+.container6__conteudo1{
     display: flex;
 }
 
-.container6__conteudo__texto{
+.container6__conteudo1__texto{
     width: 50%;
     display: flex;
     flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 8.375rem;
 }
 
-.container6__conteudo__texto{
-    margin-bottom: 5.06rem;
+.container6__conteudo1__texto h2{
+    color: var(--white);
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
-.container6__conteudo-lista{
-    width: 30%;
-    height: 20vh;
+.container6__conteudo1-lista{
+    width: 50%;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
 }
-  
+
+.container6__conteudo1-lista-item{
+    color: var(--white);
+    font-size: 1rem;
+    padding-bottom: 1.2rem;
+    padding-right: 8rem;
+}   
+
+.container6__conteudo1 img{
+    position: absolute;
+    right: 5.125rem;
+    top: 435rem;
+}
+
+.container6__conteudo2{
+    display: flex;
+    margin-top: 10.5625rem;
+    padding-left: 6rem;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+}
+
+.container6__conteudo2 p{
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.container6__conteudo2__contatos{
+    width: 25%;
+}
+
+.container6__conteudo2__contatos__iconesmidia{
+    display: flex;
+    width: 30%;
+    padding-left: 0;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.container6__conteudo2__contatos__iconesmidia a{
+    color: var(--white);
+}

@@ -303,11 +303,9 @@
     background-color: var(--dark-blue);
     border-radius: 2rem;
     position: absolute;
-    top: rem;
     top: 20rem;
     left: 18rem;
 }
-
 
 .container3__conteudo2__texto{
     width: 30vw;
